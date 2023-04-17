@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="219ba8032a774cf085b252e22af23bcf" Name="Diagram1">
+        <EntityTypeShape EntityType="caaakeBaseModel.Client" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="caaakeBaseModel.Employee" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="caaakeBaseModel.kurier" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="caaakeBaseModel.sysdiagram" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="caaakeBaseModel.Tovar" Width="1.5" PointX="3.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="caaakeBaseModel.User" Width="1.5" PointX="5.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="caaakeBaseModel.Zakaz" Width="1.5" PointX="6" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="caaakeBaseModel.FK__kurier__klient__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="caaakeBaseModel.FK__Zakaz__klient__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="caaakeBaseModel.FK_Zakaz_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="caaakeBaseModel.FK__kurier__zakaz__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="caaakeBaseModel.FK__Zakaz__tovar__3D5E1FD2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
